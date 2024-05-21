@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>E-Library</title>
+    
+    <style>
+        
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+       
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #008080;
+            color: #fff;
+        }
+        .logo img {
+        width: 70px; 
+        height: auto; 
+        }
+
+        .logo-text {
+            padding-bottom: 20px;
+        }
+
+        .navbar-left {
+            flex: 1;
+        }
+
+        .navbar-right {
+            flex: 1;
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .navbar-item {
+            margin-left: 20px;
+            color: #fff;
+            text-decoration: none;
+        }
+
+        
+        .slider-container {
+            position: relative;
+            overflow: hidden;
+            height: 400px;
+        }
+
+        .slider-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            z-index: 1;
+            color: #fff;
+        }
+
+        .slider-text h1 {
+            font-size: 40px;
+        }
+
+        .slider-text p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .get-started-btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color:#008080;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .get-started-btn:hover {
+            background-color: #006666;
+        }
+
+        .slider-container img {
+            width: 100%;
+            height: auto;
+        }
+
+        
+        .content {
+            padding: 20px;
+        }
+
+        
+        footer {
+            background-color: #008080;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar-left">
+                <a href="#" class="logo">
+                    <img src="image/0c3946b8-67c6-4624-9739-6493bca6ed0c-removebg-preview.png" alt="VisioEd Logo">
+                </a>
+                <span class="logo-text"></span>
+            </div>
+            <div class="navbar-right">
+              <a href="php/preference.php" class="navbar-item"><i class="fas fa-user-plus"></i> Sign Up</a>
+              <a href="php/preference.php" class="navbar-item"><i class="fas fa-sign-in-alt"></i> Sign In</a>
+              
+            </div>
+          </nav>        
+    </header>
+
+    <div class="slider-container">
+        <div class="slider-text">
+            <h1>Welcome to VisioEd E-Library</h1>
+            <p>Discover a world of knowledge at your fingertips.</p>
+            <a href="#" class="get-started-btn">Get Started</a>
+        </div>
+        <img src="image/pexels-element5-1370296.jpg" alt="Slider Image">
+    </div>
+
+    <div class="content">
+        <section class="books">
+            <h2>Featured Books</h2>
+            
+        </section>
+        <section class="categories">
+            <h2>Categories</h2>
+
+        </section>
+        <!-- Add more sections -->
+    </div>
+
+    <footer>
+        <p>&copy; 2024 E-Library. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
