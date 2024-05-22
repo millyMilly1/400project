@@ -160,7 +160,7 @@ footer {
         </section>
     </main>
     <footer>
-        <p>&copy; 2024 E-Learning Platform</p>
+        <p>&copy; 2024 VisioEd E-Learning Platform</p>
     </footer>
 </body>
 </html>
