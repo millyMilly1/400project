@@ -49,7 +49,7 @@ if(isset($_SESSION['username'])) {
 <body>
     <div class="container">
         <div class="welcome">
-            <h1>Welcome to the User Dashboard, <?php echo $username; ?>!</h1>
+            <h1>Welcome <?php echo $username; ?>!</h1>
             <p>Here you can access various contents uploaded by lecturers.</p>
         </div>
         <div class="content">
